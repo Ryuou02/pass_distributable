@@ -1,0 +1,5 @@
+﻿  reports.cpp
+C:\Users\Nikhil Jose\source\repos\programAssist\ProgramAssist_Distributable\ProgramAssist_Distributable\includes.h(268,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\programAssist\ProgramAssist_Distributable\ProgramAssist_Distributable\includes.h(305,6): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\programAssist\ProgramAssist_Distributable\ProgramAssist_Distributable\reports.cpp(129,15): warning C4244: '=': conversion from 'time_t' to 'float', possible loss of data
+  ProgramAssist_Distributable.vcxproj -> C:\Users\Nikhil Jose\source\repos\programAssist\ProgramAssist_Distributable\x64\Debug\ProgramAssist_Distributable.exe

@@ -1,0 +1,4 @@
+#debug files
+$GIT_DIR/x64/Debug
+$GIT_DIR/ProgramAssist_Distributable/tmp
+$GIT_DIR/ProgramAssist_Distributable/x64

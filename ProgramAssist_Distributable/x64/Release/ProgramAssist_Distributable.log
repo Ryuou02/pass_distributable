@@ -1,0 +1,18 @@
+﻿  main.cpp
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(268,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(305,6): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\main.cpp(152,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\main.cpp(377,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  reports.cpp
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(268,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(305,6): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\reports.cpp(129,15): warning C4244: '=': conversion from 'time_t' to 'float', possible loss of data
+  reportStarter.cpp
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(268,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(305,6): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  Generating code
+  266 of 275 functions (96.7%) were compiled, the rest were copied from previous compilation.
+    8 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ProgramAssist_Distributable.vcxproj -> C:\Users\Nikhil Jose\source\repos\pass_distributable\x64\Release\ProgramAssist_Distributable.exe
