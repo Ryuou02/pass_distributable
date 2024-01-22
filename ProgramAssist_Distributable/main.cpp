@@ -383,7 +383,7 @@ void pass(int k, char** args)
 					c = i;
 				}
 			}
-			switch (c) {
+			switch (c) {		//responses can be added here, it is originally kept here to add an AI model to answer random questions.
 			case 0:
 			case 1:
 			case 2:
