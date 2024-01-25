@@ -13,19 +13,17 @@
 		*																									*
 		*																									*
 		*****************************************************************************************************/
-#include<string.h>
-#include<cstdlib>
 #include<fstream>
 #include<iostream>
 #include "includes.h"
 #include "reports.h"
 #include"colorCodes.h"
+#include"eval.h"
 
 #define VERSION 12
 
 #define ARGS std::size(commands)				//total number of existing arguments
 #define DEFAULT_DEBUG_ARG "exit"
-
 
 
 // the nothing commands are useless
@@ -41,11 +39,11 @@ const char* commands[]{
 	"cmd",			//9. execute command prompt commands
 	"show",			//10. show all programs that can be opened
 	"nothing",		//11. does nothing
-	"update",		//12. checks for update and updates program.
-	"f_request",	//13. user can request for features using this command.-----------------------------	not implemented
+	"update",		//12. checks for update. -----------------------------------------------------------	not implemented
+	"f_request",	//13. user can request for features using this command.
 	"bye",			//14. say bye and exit
 	"exit",			//15. to exit
-	"calc",			//16. to calculate any expression --------------------------------------------------	not implemented
+	"calc",			//16. to calculate any expression
 	"mcmd",			//17. to get macro commands, like suppose you needed to type some huge line just to get some command executed, like checking battery level, you can store it as a command macro.
 	"sleep"			//18. shutdown the computer
 };
@@ -98,7 +96,7 @@ void pass(int k, char** args)
 		break;
 
 	case 3:	//try
-		system("notepad .\\PASS_files\\try_stuff.txt");
+		system("start notepad .\\PASS_files\\try_stuff.txt");
 		break;
 
 	case 4:	//search
@@ -124,7 +122,7 @@ void pass(int k, char** args)
 		}
 		else if (strcmp(args[2], "~secure") == 0)
 		{
-			buffer2 = "curl ";
+			buffer2 = "curl -L ";
 			buffer2 += std::string(args[3]);
 			buffer2 += " > webpage.html";
 			system(buffer2.c_str());
@@ -339,15 +337,38 @@ void pass(int k, char** args)
 		break;
 
 	case 11:		//update
+		/*
 		if (k > 2) {
 			RESET_COLOR
 			exit(VERSION);
 		}
 		else {
 			std::cout << "\nrun the command pass-update to get update\n";
-		}
+		}*/
 		break;
 	case 12:		//f_request
+		useful_string = "";
+		if (k > 2) {
+			for (int i = 2; i < k; i++)
+			{
+				for (int j = 0; j < strlen(args[i]); j++)
+					useful_string += valid(args[i][j]);
+				useful_string += "_";
+			}
+		}
+		else {
+			std::cout << "enter request : ";
+			char a;
+			do{
+				std::cin.get(a);
+				useful_string += valid(a);
+			} while (a != '\n');
+		}
+		printf("sending data ... ");
+		useful_string = "curl -L -s --form \"data[f_request]\"=" + useful_string + " https://sheetdb.io/api/v1/2vffw6zwil9lp -o tmp";
+		system(useful_string.c_str());
+		printf("\r");
+		RESET_COLOR;
 		break;
 
 	case 13:		//bye
@@ -361,6 +382,22 @@ void pass(int k, char** args)
 		RESET_COLOR;
 		exit(0);
 	case 15:		//calc
+		useful_string = "";
+		for (int i = 2; i < k; i++)
+		{
+			for (int j = 0; j < strlen(args[i]); j++)
+			{
+				if (args[i][j] != 32)
+					useful_string += args[i][j];
+			}
+		}
+		try {
+			std::cout << eval(useful_string);
+		}
+		catch (std::runtime_error& e)
+		{
+			ERROR(e.what());
+		}
 		break;
 	case 16:		//mcmd
 		mcmd(k, args);
@@ -412,7 +449,10 @@ void pass(int k, char** args)
 		}
 		fileread.open(README);
 		if (fileread.fail()){
-			std::cout << "### ERROR: couldn't open readme file. ###";
+			std::cout << "fetching help file ...";
+			useful_string = "curl -s https://raw.githubusercontent.com/Ryuou02/pass_distributable/version-1/readme.txt -o ";
+			useful_string += README;
+			system(useful_string.c_str());
 			return;
 		}
 		std::cout << "\nusage of program - ";

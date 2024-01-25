@@ -134,6 +134,7 @@
   <ItemGroup>
     <ClInclude Include="colorCodes.h" />
     <ClInclude Include="definitions.h" />
+    <ClInclude Include="eval.h" />
     <ClInclude Include="includes.h" />
     <ClInclude Include="reports.h" />
     <ClInclude Include="reportStarter.h" />

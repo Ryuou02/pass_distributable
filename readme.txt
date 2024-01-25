@@ -66,15 +66,24 @@ pass cmd <command>
 pass show
 	shows all existing self-made programs that can be opened using "pass open" command
 
+pass f_request <feature request>
+	=> sends a requst to ryuou02 to add the feature to pass
+
+pass bye
+	=> exits pass, it is useful when in interactive mode.
+
 pass exit
 	=> exits pass, it is useful when in interactive mode.
 
+pass calc <expression>
+	=> calculates and returns the result of evaluating the expression
+	=> operators that are allowed are - 
+		'^' for exponent
+		'/' for division
+		'*' for multiplication
+		'+' for addition
+		'-' for subtraction
+		'(' and ')' for parentheses
+
 pass sleep
 	=> shuts down the computer.
-----------------------------------------------------------------
-extra features - 
-+	you can type a random sentence and end it with a '?' to make it a yes or no question that pass will give a randomised response to
-	if you end the sentence with a '!', there may be a surprise.
-
-+	you can add a 'bye' to your random sentence and pass will exit
-

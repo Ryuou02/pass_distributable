@@ -24,9 +24,6 @@
     <ClCompile Include="reportStarter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="commonFunctions.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="includes.h">
@@ -42,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eval.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
