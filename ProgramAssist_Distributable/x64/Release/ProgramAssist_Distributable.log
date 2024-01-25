@@ -1,19 +1,19 @@
 ﻿  main.cpp
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(272,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(309,6): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\main.cpp(89,23): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\main.cpp(258,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\main.cpp(499,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(268,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(305,6): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\eval.h(72,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\main.cpp(150,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\main.cpp(416,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   reportStarter.cpp
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(272,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(309,6): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(268,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(305,6): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
   reports.cpp
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(272,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(309,6): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(268,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(305,6): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
 C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\reports.cpp(129,15): warning C4244: '=': conversion from 'time_t' to 'float', possible loss of data
   Generating code
-  180 of 406 functions (44.3%) were compiled, the rest were copied from previous compilation.
-    131 functions were new in current compilation
+  31 of 418 functions ( 7.4%) were compiled, the rest were copied from previous compilation.
+    12 functions were new in current compilation
+    81 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-    55 functions had inline decision re-evaluated but remain unchanged
   ProgramAssist_Distributable.vcxproj -> C:\Users\Nikhil Jose\source\repos\pass_distributable\x64\Release\ProgramAssist_Distributable.exe

@@ -337,14 +337,16 @@ void pass(int k, char** args)
 		break;
 
 	case 11:		//update
-		/*
-		if (k > 2) {
-			RESET_COLOR
-			exit(VERSION);
-		}
+		system("curl -s https://raw.githubusercontent.com/Ryuou02/pass_distributable/version-1/version -o tmp");
+		fileread.open("tmp");
+		int vn;
+		fileread >> vn;
+		fileread.close();
+		if (vn > VERSION)
+			std::cout << "pass is out of date, current version is " << vn;
 		else {
-			std::cout << "\nrun the command pass-update to get update\n";
-		}*/
+			std::cout << "pass is upto date";
+		}
 		break;
 	case 12:		//f_request
 		useful_string = "";

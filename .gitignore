@@ -34,3 +34,11 @@ tmp
 x64\Debug\*
 
 .vs\*
+ProgramAssist_Distributable/x64/Debug/vc143.idb
+*.idb
+*.idb
+*.log
+ProgramAssist_Distributable/tmp
+*.ipch
+x64/Debug/ProgramAssist_Distributable.exe
+x64/Debug/ProgramAssist_Distributable.pdb
