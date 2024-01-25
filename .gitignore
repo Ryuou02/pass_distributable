@@ -42,3 +42,10 @@ ProgramAssist_Distributable/tmp
 *.ipch
 x64/Debug/ProgramAssist_Distributable.exe
 x64/Debug/ProgramAssist_Distributable.pdb
+.vs/ProgramAssist_Distributable/v17/Browse.VC.opendb
+.vs/ProgramAssist_Distributable/v17/Browse.VC.db-wal
+.vs/ProgramAssist_Distributable/v17/Browse.VC.db-shm
+.vs/ProgramAssist_Distributable/v17/Browse.VC.db
+.vs/ProgramAssist_Distributable/v17/.suo
+.vs/ProgramAssist_Distributable/v17/.suo
+.vs/ProgramAssist_Distributable/v17/Browse.VC.db

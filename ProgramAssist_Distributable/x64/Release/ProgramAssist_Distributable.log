@@ -4,16 +4,8 @@ C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable
 C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\eval.h(72,23): warning C4018: '<': signed/unsigned mismatch
 C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\main.cpp(150,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\main.cpp(416,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  reportStarter.cpp
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(268,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(305,6): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-  reports.cpp
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(268,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\includes.h(305,6): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-C:\Users\Nikhil Jose\source\repos\pass_distributable\ProgramAssist_Distributable\reports.cpp(129,15): warning C4244: '=': conversion from 'time_t' to 'float', possible loss of data
   Generating code
-  31 of 418 functions ( 7.4%) were compiled, the rest were copied from previous compilation.
-    12 functions were new in current compilation
-    81 functions had inline decision re-evaluated but remain unchanged
+  Previous IPDB not found, fall back to full compilation.
+  All 418 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Finished generating code
-  ProgramAssist_Distributable.vcxproj -> C:\Users\Nikhil Jose\source\repos\pass_distributable\x64\Release\ProgramAssist_Distributable.exe
+  ProgramAssist_Distributable.vcxproj -> C:\Users\Nikhil Jose\source\repos\pass_distributable\x64\Release\pass.exe
